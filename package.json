@@ -1,0 +1,32 @@
+{
+  "name": "findfast-from-ytvideo-extension",
+  "version": "1.0.0",
+  "description": "FindFast is your time-saving companion for YouTube. It quickly extracts subtitles, generates concise summaries, and highlights key insights—so you can grasp essential information without watching the entire video. Plus, its interactive Q&amp;A feature lets you dive deeper into the content, making it easier than ever to access what matters most.",
+  "main": "background.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abdulabin/FindFast-from-YTVideo-Extension.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abdulabin/FindFast-from-YTVideo-Extension/issues"
+  },
+  "homepage": "https://github.com/Abdulabin/FindFast-from-YTVideo-Extension#readme",
+  "dependencies": {
+    "youtube-caption-scraper": "^1.0.0",
+    "youtube-captions-scraper": "^2.0.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.9",
+    "@babel/preset-env": "^7.26.9",
+    "babel-loader": "^10.0.0",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^6.0.1"
+  }
+}
